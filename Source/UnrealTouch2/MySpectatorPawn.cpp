@@ -44,7 +44,7 @@ void AMySpectatorPawn::Tick(float DeltaTime)
 				FVector2D ScreenSize;
 				ViewportClient->GetViewportSize(ScreenSize);
 
-				FVector2D ScaledDelta = deltaTouchLoc / ScreenSize;*/
+				FVector2D ScaledDelta = deltaTouchLoc / ScreenSize;;*/
 
 				FVector2D oldpos = finger1.preTouchLoc;
 				FVector oldworldpos;
